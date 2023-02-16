@@ -22,6 +22,8 @@ return require('packer').startup(function(use)
 		end
 	})
 
+  use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
+
 	use('nvim-treesitter/nvim-treesitter', {run= ':TSUpdate'})
 	use('nvim-treesitter/playground')
 	use('theprimeagen/harpoon')
